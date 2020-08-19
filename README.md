@@ -23,7 +23,7 @@ Open CMD.
 
 Run the command " Powershell.exe -ExecutionPolicy Bypass path "
 
-Replace the word path with the actual path where is the script stored on the machine , e.g Powershell.exe -ExecutionPolicy Bypass C:\Users\ir_diag_1.0.ps1
+Replace the word path with the actual path where is the script stored on the machine , e.g Powershell.exe -ExecutionPolicy Bypass C:\Users\McL0vinn\ir_diag_1.0.ps1
 
 We use the command -Executionpolicy Bypass so that we can execute the powershell script on computer that has a locked down executionpolicy.
 This command will execute the script  in a " Unrestricted " mode WITHOUT actually chaning the policy.
